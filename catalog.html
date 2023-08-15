@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title>Online Book Exchange</title>
+</head>
+<body background="https://i.pinimg.com/564x/a3/f5/22/a3f5222598013eea25ee148376fd18b8.jpg"  style="background-repeat:no-repeat; background-size:100%100%" >
+<style type=text/css> 
+  
+ 
+header {  
+
+background-color: navy;  
+position: fixed;  
+left: 0;  
+right: 0;  
+top: 5px;  
+height: 50px;  
+display: flex;  
+align-items: center;  
+box-shadow: 0 0 25px 0 black;
+font-family: georgia;
+ font-size:20px;
+ 
+}  
+
+header * {  
+display: inline;  
+}  
+header li {  
+margin: 20px;  
+}  
+header li a {  
+color: silver;  
+text-decoration: none; 
+
+}
+  
+</style>   
+</Head>  
+<Body>   
+<header> 
+ <nav>  
+<ul>  
+<li>  
+<a href="http://localhost/project/Home.html"> |  Home  | </a>  
+</li>  
+<li>  
+<a href="http://localhost/project/about_us.html">|  About |</a>  
+</li>  
+<li>  
+<a href="http://localhost/project/catalog.html">|  Catalog  |</a>  
+</li>  
+<li> <a href="http://localhost/project/FAQ.html"> | FAQ   |</a>  
+</li>   
+<li>  
+<a href="http://localhost/project/msg_to_user.html"> |  Msg to Admin  |</a>  
+</li> 
+<li>  
+<a href="http://localhost/project/logindex.php"> |  Logout  |</a>  
+</li> 
+</ul>  
+</nav> 
+
+</header>  
+
+
+<style type="text/css">
+
+
+*{
+ margin: 0px;
+ padding: 0px;
+}
+body{
+ font-family: arial;
+}
+.main{
+
+ margin: 1%;
+}
+
+.card{
+     width: 20%;
+height: 50%;
+     display: inline-block;
+     box-shadow: 2px 2px 20px black;
+     border-radius: 5px; 
+     margin: 2%;
+     transition: 0.s ease;
+     cursor: pointer; 
+    }
+    .card:hover{
+        transform;: :scale(1,2);
+        box-shadow:10px 10px 20px rgba(0,0,0,0.6);
+    }
+
+.image img{
+  width: 100%;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  
+
+ 
+ }
+
+.title{
+ 
+  text-align: center;
+  padding: 10px;
+  
+ }
+
+h1{
+  font-size: 20px;
+ }
+ h1:hover{
+     background-color: yellowgreen;
+     color: crimson;
+
+ }
+
+.des{
+  padding: 3px;
+  text-align: center;
+ 
+  padding-top: 10px;
+        border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+button{
+  margin-top: 40px;
+  margin-bottom: 10px;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding:10px;
+}
+button:hover{
+  background-color: black;
+  color: white;
+  transition: .5s;
+  cursor: pointer;
+}
+.des:hover{
+    background-color: rgb(190, 35, 190);
+color: rgb(15, 10, 10);
+transition: .5s;
+cursor: pointer;
+
+}
+
+input[type=text]
+{
+    padding: 17px
+    border: none;
+    font-size: 16px;
+    font-family:sans-serif;
+}
+.search-fild{
+ search-fild
+
+    height: 50px;
+    padding: 10px;
+    border: none;
+    border-radius: 25px;
+    outline: none;
+
+
+}
+.bookname{
+width: 200px;
+}
+.authorname{
+width: 100px;
+}
+.search-from{
+    background: rgba(46,204,113,1);
+    padding: 30px;
+}
+</style>
+<body>
+    <div class="search-from">
+        <input type="text" class="search-fild bookname" placeholder="Book name">
+        <input type="text" class="search-fild authorname" placeholder="Author name">
+        <button >search</button>
+
+
+    </div>
+
+<div class="main">
+
+ <!--cards -->
+
+<div class="card">
+
+<div class="image">
+   <img src="http://www.informit.com/ShowCover.aspx?isbn=0321563840">
+</div>
+
+<div class="title">
+ <h1>
+programming in C</h1>
+</div>
+<div class="des">
+ <p>Author Name:Bjarne stroustrup<br>
+    Book_id:101<br>
+    Book_Edition:fourth 
+    Language:English
+<form action="http://localhost/project/userinfo.html" method="get" target="_blank">
+<button type="REquest...">Request...</button>
+</form>
+ </p>
+
+</div>
+</div>
+<!--cards -->
+
+
+<div class="card">
+
+<div class="image">
+   <img src="./images/dsc.jpg">
+</div>
+<div class="title">
+ <h1>
+Data Structure using C</h1>
+</div>
+<div class="des">
+ <p>Author Name:Reema Thareja<br>
+    Book_id:102<br>
+    Book_Edition:Second
+    Language:English
+<form action="http://localhost/project/userinfo.html" method="get" target="_blank">
+<button type="REquest...">Request...</button>
+</form>
+</p>
+
+</div>
+</div>
+<!--cards -->
+
+
+<div class="card">
+
+<div class="image">
+   <img src="https://i.pinimg.com/736x/2c/e7/3c/2ce73cfeeee81b0a0e45ad7b1c0aff75--python-programming-bestseller-books.jpg">
+</div>
+<div class="title">
+ <h1>
+     programming in Python
+</h1>
+</div>
+<div class="des">
+ <p>Author Name:Toby donaldson<br>
+    Book_id:103<br>
+    Book_Edition:Second
+    Language:English
+<form action="http://localhost/project/userinfo.html" method="get" target="_blank">
+<button type="REquest...">Request...</button>
+</form>
+</p>
+
+</div>
+</div>
+<!--cards -->
+
+
+<div class="card">
+
+<div class="image">
+   <img src="https://rukminim1.flixcart.com/image/832/832/book/6/9/8/programming-with-java-a-primer-original-imadc9fxfeyj8cgs.jpeg?q=70">
+</div>
+<div class="title">
+ <h1>
+Programming in java</h1>
+</div>
+<div class="des">
+ <p>Author Name:E Balagurusamy<br>
+    Book_id:104<br>
+    Book_Edition:fourth
+    Language:English
+<form action="http://localhost/project/userinfo.html" method="get" target="_blank">
+<button type="REquest...">Request...</button>
+</form>
+</p>
+
+</div>
+</div>
+<!--cards -->
+
+
+<div class="card">
+
+<div class="image">
+   <img src="https://covers.oreillystatic.com/images/0636920035534/lrg.jpg">
+</div>
+<div class="title">
+ <h1>
+Learning Javascript</h1>
+</div>
+<div class="des">
+ <p>Author Name:Ethan Brown<br>
+    Book_id:105<br>
+    Book_Edition:third
+    Language:English
+<form action="http://localhost/project/userinfo.html" method="get" target="_blank">
+<button type="REquest...">Request...</button>
+</form>
+</p>
+
+</div>
+</div>
+<!--cards -->
+
+<div class="card">
+
+<div class="image">
+   <img src="https://d3525k1ryd2155.cloudfront.net/f/473/595/9781590595473.OL.0.m.jpg">
+</div>
+<div class="title">
+ <h1>
+Beginning PHP and MySQL</h1>
+</div>
+<div class="des">
+ <p>Author Name:W.Jason Gilmore<br>
+    Book_id:106<br>
+    Book_Edition:third
+    Language:English
+<form action="http://localhost/project/userinfo.html" method="get" target="_blank">
+<button type="REquest...">Request...</button>
+</form>
+</p>
+
+</div>
+</div>
+<!--cards -->
+
+<div class="card">
+
+<div class="image">
+   <img src="https://images-na.ssl-images-amazon.com/images/I/618YQosPQTL.jpg">
+</div>
+<div class="title">
+ <h1>
+the Complete reference JAVA</h1>
+</div>
+<div class="des">
+ <p>Author Name:Herbert schildt<br>
+    Book_id:107<br>
+    Book_Edition:Seven
+    Language:English
+<form action="http://localhost/project/userinfo.html" method="get" target="_blank">
+<button type="REquest...">Request...</button>
+</form>
+</p>
+
+</div>
+</div>
+<!--cards -->
+
+
+<div class="card">
+
+<div class="image">
+   <img src="./images/ad.jpg">
+</div>
+<div class="title">
+ <h1>
+Java for Android Development</h1>
+</div>
+<div class="des">
+ <p>Author Name:Peter Spath and Jeff Friesen<br>
+    Book_id:108<br>
+    Book_Edition:fourth
+    Language:English
+<form action="http://localhost/project/userinfo.html" method="get" target="_blank">
+<button type="REquest...">Request...</button>
+</form>
+</p>
+
+</div>
+</div>
+<!--cards -->
+
+
+<div class="card">
+
+<div class="image">
+   <img src="https://www.mheducation.co.in/media/catalog/product/cache/84c63a40cf0771f03c9446b22a7e0f08/9/7/9789389949186.jpeg">
+</div>
+<div class="title">
+ <h1>
+Object Oriented Programming with C++</h1>
+
+<div class="des">
+ <p>Author Name:E Balagurusamy<br>
+    Book_id:109<br>
+    Book_Edition:eight
+    Language:English
+<form action="http://localhost/project/userinfo.html" method="get" target="_blank">
+<button type="REquest...">Request...</button>
+</form>
+</p>
+
+</div>
+</div>
+</div>
+
+<!--cards -->
+
+<div class="card">
+
+<div class="image">
+   <img src="https://images-na.ssl-images-amazon.com/images/I/41SVDowxHgL._AC_SY780_.jpg">
+   </div>
+<div class="title">
+ <h1>
+Begin to code with Python</h1>
+</div>
+<div class="des">
+ <p>Author Name:Robs S. Miles<br>
+    Book_id:110<br>
+    Book_Edition:First
+    Language:English
+<form action="http://localhost/project/userinfo.html" method="get" target="_blank">
+<button type="REquest...">Request...</button>
+</form>
+</p>
+
+</div>
+</div>
+<!--cards -->
+
+<div class="card">
+
+<div class="image">
+   <img src="https://images-na.ssl-images-amazon.com/images/I/4158Y9604PL._AC_SY780_.jpg">
+</div>
+<div class="title">
+ <h1>
+Advanced Programming in the UNIX Environment</h1>
+</div>
+<div class="des">
+ <p>Author Name:W. Richard Stevens<br>
+    Book_id:111<br>
+    Book_Edition:First
+    Language:English
+<form action="http://localhost/project/userinfo.html" method="get" target="_blank">
+<button type="REquest...">Request...</button>
+</form>
+</p>
+</div>
+</div>
+<!--cards -->
+
+<div class="card">
+
+<div class="image">
+   <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQK-NMdxcKrPL7ujuuxwe1-wxyqVbyWWmrXw&usqp=CAU">
+</div>
+<div class="title">
+ <h1>
+Generic Programming and the STL</h1>
+</div>
+<div class="des">
+ <p>Author Name:Matthew H. Austein<br>
+    Book_id:112<br>
+    Book_Edition:Second
+    Language:English
+<form action="http://localhost/project/userinfo.html" method="get" target="_blank">
+<button type="REquest...">Request...</button>
+</form>
+</p>
+</div>
+</div>
+
+
+
+
+
+<script>
+   function toggle()
+   {
+      var clicked=false;
+      if(!clicked)
+      {
+          clicked=true;
+          document.getElementById(btn1).innerHTML="Request";
+      }
+      else{
+          clicked=false;
+       document.getElementById(btn1).innerHTML="Cancel";
+      }
+   }
+/script>
+</body>
+</html>
